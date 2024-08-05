@@ -5,5 +5,5 @@ def home(request):
     return render(request, 'home.html')
 
 
-def contacts(requect):
-    return render(requect, 'contacts.html')
+def contacts(request):
+    return render(request, 'contacts.html')
